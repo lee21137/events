@@ -1,0 +1,32 @@
+@charset "utf-8";
+#subpage { width: 100%; overflow: hidden; position: relative; padding-top: 0px; min-height: 800px; }
+#subpage .contents { position: relative; top: 0px; left: 50%; margin-left: -960px; width: 1920px; overflow: hidden; }
+
+#subpage .contents { position: relative; top: 0; left: 50%; margin-left: -960px; width: 1920px; overflow: hidden; min-height: 800px; }
+#subpage .contents #depth3 { position: absolute; width: 100%; overflow: hidden; top: 50px; left: 0; text-align: center; }
+#subpage .contents #depth3 > ul { display: inline-block; }
+#subpage .contents #depth3 > ul > li { float: left; border: 1px solid #fff; margin-left: -1px; line-height: 1; }
+#subpage .contents #depth3 > ul > li:first-child { margin-left: 0; }
+#subpage .contents #depth3 > ul > li > a { display: block; padding: 15px 30px; color: #fff; font-size: 14px; }
+#subpage .contents #depth3 > ul > li.on > a { background: #fff; color: #f17297; }
+
+.contents { position: relative; top: 0px; left: 50%; margin-left: -960px; width: 1920px; overflow: hidden; }
+.contents .box { position: absolute; left: 50%; top: 866px; width: 875px; height: 522px; background: rgba(0,0,0,0.5); z-index: 2; margin-left: -439px; border-radius: 5px; overflow: hidden; }
+.contents .box iframe { width: 100%; height: 100%; }
+
+/* 게시판 커스텀 */
+/* list */
+#bo_list .td_name { text-align: center !important; }
+#bo_list tbody tr:hover {border-left:2px solid #D0A972 !important; }
+
+#bo_cate a {border:1px solid #D0A972 !important;color:#D0A972 !important; }
+#bo_cate a:focus, #bo_cate a:hover, #bo_cate a:active { background:#D0A972 !important; color:#fff !important; }
+#bo_cate #bo_cate_on {background:#D0A972 !important; border:1px solid #D0A972 !important; color: #fff !important;
+-webkit-box-shadow:inset 0 0 0 rgb(33, 135, 202) !important;
+-moz-box-shadow:inset 0 0 0 rgb(33, 135, 202) !important;
+box-shadow:inset 0 0 0 rgb(33, 135, 202) !important}
+
+/*view*/
+#bo_v_share { display: none !important; }
+.cmt_btn span.total { color: #D0A972 !important; }
+.cmt_btn span.total:after { background: #D0A972 !important; }
