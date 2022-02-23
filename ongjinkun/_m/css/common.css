@@ -11,14 +11,14 @@ input { -webkit-appearance: none; -webkit-border-radius: 0; }
 #fboardlist { position: relative; }
 .fix_btn,
 .btn_submit,
-#bo_cate #bo_cate_on:after { background: #a1d9f7 !important; }
+#bo_cate #bo_cate_on:after { background: #D7F4F2 !important; }
 #bo_vc h2 span,
-#bo_cate #bo_cate_on { color: #a1d9f7 !important; }
-.bo_v_cate { background: #a1d9f7 !important; color: #fff !important; }
-.filebox .btn_file { color: #a1d9f7 !important; border: 1px solid #a1d9f7 !important; }
+#bo_cate #bo_cate_on { color: #D7F4F2 !important; }
+.bo_v_cate { background: #D7F4F2 !important; color: #fff !important; }
+.filebox .btn_file { color: #D7F4F2 !important; border: 1px solid #D7F4F2 !important; }
 img[usemap] { border: none; height: auto; max-width: 100%; width: auto; -webkit-tap-highlight-color : transparent; }
 
-#wrap { min-height: 100vh; background: #a1d9f7; }
+#wrap { min-height: 100vh; background: #D7F4F2; }
 
 .modal-pop { position: fixed; width: 100%; overflow: hidden; border: 1px solid #ccc; background: #fff; z-index: 99; display: none; }
 .modal-pop .title { padding: 12px 20px; border-bottom: 1px solid #ccc; font-size: 14px; text-align: left; }

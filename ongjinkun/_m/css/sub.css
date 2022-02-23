@@ -1,10 +1,10 @@
 .contents { position: relative; width: 100%; overflow: hidden; }
 .contents .box {
 	position: absolute;
-    left: 10vw;
-    top: 89vw;
-    width: 91.5vw;
-    height: 52vw;
+    left: 5vw;
+    top: 93vw;
+    width: 90vw;
+    height: 54vw;
     background: rgba(0,0,0,0.5);
     z-index: 2;
     border-radius: 5px;
