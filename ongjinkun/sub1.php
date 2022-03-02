@@ -9,9 +9,9 @@ $imageSize = $detect->isMobile() ? '960px' : '1920px';
 
 $page = $_GET['page'];
 //홍보영상()
-$youtubeLink = "--";
+$youtubeLink = "s4m__5GXf_I";
 if ($page == '2') {
-	$youtubeLink = "--";
+	$youtubeLink = "5IafbMOMPy4";
 	// [옹진군 DMZ 평화관광 서비스 아카데미] CS교육(2차) - 관광객 서비스의 중요성
 } else if ($page == '3') {
 	$youtubeLink = "0a8vDmqWmGU";
@@ -43,6 +43,7 @@ if ($page == '2') {
 	<div class="contents">
 		<?php if ($devicetype == "_pc") { ?>
 			<img src="/<?= $devicetype ?>/img/sub/detail.jpg?ver=<?= $timeStamp ?>" alt="영상상세페이지-이미지" width="<?= $imageSize ?>" />
+			<div stlye="absolte">asdsadasdsas</div>
 		<?php } else if ($devicetype == "_m") { ?>
 			<img src="/<?= $devicetype ?>/img/sub/detail.jpg?ver=<?= $timeStamp ?>" alt="영상상세페이지-이미지" width="100%" />
 		<?php } ?>
